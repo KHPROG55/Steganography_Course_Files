@@ -1,1 +1,100 @@
-<!DOCTYPE html><html dir="rtl">	<head>		<meta name="viewport" content="width=device-width, initial-scale=1">		<meta charset="UTF-8">		<title>  Intro To Steganography | KaSPeR HaCKeR </title>		<style>			* {				text-align: center;			}			body {				background-image: url('Images/Background.png');				height: 100%;				background-attachment: fixed;				background-position: center;				background-repeat: no-repeat;				background-size: cover;			}			@font-face {				font-family: neckar;				src: url("Fonts/neckar.ttf");			}			#main {				font-family: neckar, "Comic Sans MS";			}			p, h3 {				font-size: 25px;				color: white;    				text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;			}			#steganography2 {				width : 50%;				height : 50%;			}			span {				text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;			}		</style>	</head>	<body>		<div id="main">			<h3> بـسـم الــله الـرحـمـن الـرحـيـم </h3>			<img id="steganography" src="Images/1_Steganography.JPG" alt="Steganography" width="250" height="230">			<p>				اليوم معانا أول درس من سلسلة دروس علم إخفاء البيانات Steganography <br>				 <span> 1# مقدمة عن علم إخفاء البيانات Steganography </span> <br>				إعداد وتجهيز : <span> KaSPeR HaCKeR </span> <br>			<br>				قبل ما نبدأ حاب اعرفكم على أنواع وطرق إخفاء البيانات <br>في الصورة التالية توضيح <span> عدة أنواع وطرق لإخفاء البيانات والتي من بينها التشفير (Encryption 							أو Cryptography) و إخفاء البيانات (Steganography)</span> ، وكما هو موضّح، هنالك  أقسام فرعية تحت كل نوع.			<br>			<img id="steganography2" src="Images/2_Hiding_Data.png" alt="Steganography">			<br>				  <span> اولاً : ما هو علم إخفاء البيانات Steganography؟ </span> <br>				 هو فن وعلم كتابة رسائل مخفية بطريقة لا يمكن لأحد، عدا المرسل والمستلم المعني،									  الشك بوجود الرسالة، وهو نوع من السرية من خلال الغموض. <br>				#  أول تسجيل لاستخدام هذا المصطلح كان سنة 1499 من قبل يوهانس تريثيموس. <br>				المفهوم التقليدي للرسالة المخفية هو أن تكون مكتوبة بحبر خفي بين السطور المرئية لرسالة خاصة. <br>				<br><br>   <span> توجد عدة تقنيات لهذا العلم وأهمها هو : </span> <br>				إخفاء المعلومات الرقمية الحديثة، حيث يتم تشفير البيانات أولًا بالوسائل المعتادة ومن ثم إدراجها، وذلك باستخدام خوارزمية خاصة، وتعد البيانات التي هي جزء من											تنسيق ملف معين مثل صورة (JPEG). 					أى البتات التي تمثل نفس لون بكسل المتكررة على التوالي.							<br><br>				 <span> ثانياً : الفرق بين التشفير وإخفاء المعلومات : </span> <br>				 عند تشفير (Encryption أو Cryptography) معلومة ما، يستطيع الطرف الثالث معرفة   أن هناك اتصال يتم مابين طرفين (شخصين أو جهتين) لكنه لا يستطيع فهم المعلومات   لأنها مشفرة. أما في حالة إخفاء المعلومات (Stegano graphy)، لا يعلم الطرف الثالث							  بأن هناك شيء مخفي في الخفاء أو أن هناك اتصال بين اثنين. <br>				<br> 													 <span> ثالثاً : الوسائط التي تستخدم في إخفاء المعلومات: </span> <br>				1- ملفات نصية. <br>				2- صورة ملفات. <br>				3- ملفات الفيديو.<br>				4- ملفات الصوت.<br>				5- رسائل البريد الإلكتروني.<br>				<span> 													 <br> رابعاً : تقنيات علم إخفاء البيانات :  <br>				1- التشفير المحض «Pure Steganography» : <br> </span>												يتم تضمين المعلومات أو الرسالة الخفية داخل الوسيط بشكل مباشر وبدون كلمة. <br>				<img id="steganography2" src="Images/3_PureSteganography.png" alt="Steganography"> <br>				<span> 											2- التشفير بالمفتاح السري «Secret Key Steganography» </span> <br>				 يعني إخفاء المعلومات باستخدام مفتاح أو كلمة سرية تضاف للرسالة المخفية   عند إخفائها داخل الوسيط المستهدف. وهكذا لا يمكن استرجاع أو قراءة الرسالة                                المخفية من قبل الطرف الثاني إلا بمعرفة الكلمة السرية، وبإضافة الكلمة السرية												لعملية الإخفاء تكون العملية آمنة ومعقدة أكثر. <br>				<img id="steganography2" src="Images/4_Secret Key Steganography.png" alt="Steganography"> <br>				<span>  3- إخفاء المعلومات بإستخدام مفتاح عام- «Public Key Stegano graphy» </span> <br>												 هي مثل التشفير عن طريق استخدام مفتاحين، الأول مفتاح «عام» ويستخدمه الشخص								 الأول عند عملية إخفاء المعلومة، أما المفتاح الثاني «الخاص» من قبل الشخص المستقبل							عند استرجاعه للمعلومة المخفية، مع العلم أن المفتاح الخاص له علاقة مباشرة مع المفتاح العام.<br>				<img id="steganography2" src="Images/5_Public Key Stegano graphy.png" alt="Steganography"> <br>				<br> <span> المصادر :  </span> <br>				<a href="https://ar.wikipedia.org/wiki/%D8%B3%D8%AA%D9%8A%D8%BA%D8%A7%D9%86%D9%88%D8%BA%D8%B1%D8%A7%D9%81%D9%8A" >1- Wikipedia </a><br>				<a href="https://www.egyres.com/articles/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%81%D9%89-%D8%B9%D9%84%D9%85-%D8%A5%D8%AE%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-steganography/">2- egyres </a> <br>				<a href="https://educad.me/67189/%D8%A5%D8%AE%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%AF%D9%85%D8%A9/">3- educad.me </a> <br>			</p>		</div>	</body></html>
+<!DOCTYPE html>
+<html dir="rtl">
+	<head>
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+		<meta charset="UTF-8">
+		<title>  Intro To Steganography | KaSPeR HaCKeR </title>
+		<style>
+			* {
+				text-align: center;
+			}
+			body {
+				background-image: url('Images/Background.png');
+				height: 100%;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			@font-face {
+				font-family: neckar;
+				src: url("Fonts/neckar.ttf");
+			}
+			#main {
+				font-family: neckar, "Comic Sans MS";
+			}
+			p, h3 {
+				font-size: 25px;
+				color: white;
+    				text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+			}
+			#steganography2 {
+				width : 50%;
+				height : 50%;
+			}
+			span {
+				text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="main">
+			<h3> بـسـم الــله الـرحـمـن الـرحـيـم </h3>
+			<img id="steganography" src="Images/1_Steganography.JPG" alt="Steganography" width="250" height="230">
+			<p>
+				اليوم معانا أول درس من سلسلة دروس علم إخفاء البيانات Steganography <br>
+				 <span> 1# مقدمة عن علم إخفاء البيانات Steganography </span> <br>
+				إعداد وتجهيز : <span> KaSPeR HaCKeR </span> <br>
+			<br>
+				قبل ما نبدأ حاب اعرفكم على أنواع وطرق إخفاء البيانات <br>
+في الصورة التالية توضيح <span> عدة أنواع وطرق لإخفاء البيانات والتي من بينها التشفير (Encryption 							أو Cryptography) و إخفاء البيانات (Steganography)</span> ، وكما هو موضّح، هنالك  أقسام فرعية تحت كل نوع.
+			<br>
+			<img id="steganography2" src="Images/2_Hiding_Data.png" alt="Steganography">
+			<br>
+				  <span> اولاً : ما هو علم إخفاء البيانات Steganography؟ </span> <br>
+				 هو فن وعلم كتابة رسائل مخفية بطريقة لا يمكن لأحد، عدا المرسل والمستلم المعني،
+									  الشك بوجود الرسالة، وهو نوع من السرية من خلال الغموض. <br>
+				#  أول تسجيل لاستخدام هذا المصطلح كان سنة 1499 من قبل يوهانس تريثيموس. <br>
+				المفهوم التقليدي للرسالة المخفية هو أن تكون مكتوبة بحبر خفي بين السطور المرئية لرسالة خاصة. <br>
+				<br><br>   <span> توجد عدة تقنيات لهذا العلم وأهمها هو : </span> <br>
+				إخفاء المعلومات الرقمية الحديثة، حيث يتم تشفير البيانات أولًا بالوسائل المعتادة
+ ومن ثم إدراجها، وذلك باستخدام خوارزمية خاصة، وتعد البيانات التي هي جزء من
+											تنسيق ملف معين مثل صورة (JPEG). 
+					أى البتات التي تمثل نفس لون بكسل المتكررة على التوالي.
+				
+			<br><br>
+				 <span> ثانياً : الفرق بين التشفير وإخفاء المعلومات : </span> <br>
+				 عند تشفير (Encryption أو Cryptography) معلومة ما، يستطيع الطرف الثالث معرفة
+   أن هناك اتصال يتم مابين طرفين (شخصين أو جهتين) لكنه لا يستطيع فهم المعلومات
+   لأنها مشفرة. أما في حالة إخفاء المعلومات (Stegano graphy)، لا يعلم الطرف الثالث
+							  بأن هناك شيء مخفي في الخفاء أو أن هناك اتصال بين اثنين. <br>
+				<br> 													 <span> ثالثاً : الوسائط التي تستخدم في إخفاء المعلومات: </span> <br>
+				1- ملفات نصية. <br>
+				2- صورة ملفات. <br>
+				3- ملفات الفيديو.<br>
+				4- ملفات الصوت.<br>
+				5- رسائل البريد الإلكتروني.<br>
+				<span> 													 <br> رابعاً : تقنيات علم إخفاء البيانات :  <br>
+				1- التشفير المحض «Pure Steganography» : <br> </span>
+												يتم تضمين المعلومات أو الرسالة الخفية داخل الوسيط بشكل مباشر وبدون كلمة. <br>
+
+				<img id="steganography2" src="Images/3_PureSteganography.png" alt="Steganography"> <br>
+				<span> 											2- التشفير بالمفتاح السري «Secret Key Steganography» </span> <br>
+				 يعني إخفاء المعلومات باستخدام مفتاح أو كلمة سرية تضاف للرسالة المخفية
+   عند إخفائها داخل الوسيط المستهدف. وهكذا لا يمكن استرجاع أو قراءة الرسالة
+                                المخفية من قبل الطرف الثاني إلا بمعرفة الكلمة السرية، وبإضافة الكلمة السرية
+												لعملية الإخفاء تكون العملية آمنة ومعقدة أكثر. <br>
+				<img id="steganography2" src="Images/4_Secret Key Steganography.png" alt="Steganography"> <br>
+				<span>  3- إخفاء المعلومات بإستخدام مفتاح عام- «Public Key Stegano graphy» </span> <br>
+												 هي مثل التشفير عن طريق استخدام مفتاحين، الأول مفتاح «عام» ويستخدمه الشخص
+								 الأول عند عملية إخفاء المعلومة، أما المفتاح الثاني «الخاص» من قبل الشخص المستقبل
+							عند استرجاعه للمعلومة المخفية، مع العلم أن المفتاح الخاص له علاقة مباشرة مع المفتاح العام.<br>
+				<img id="steganography2" src="Images/5_Public Key Stegano graphy.png" alt="Steganography"> <br>
+				<br> <span> المصادر :  </span> <br>
+				<a href="https://ar.wikipedia.org/wiki/%D8%B3%D8%AA%D9%8A%D8%BA%D8%A7%D9%86%D9%88%D8%BA%D8%B1%D8%A7%D9%81%D9%8A" >1- Wikipedia </a><br>
+				<a href="https://www.egyres.com/articles/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%81%D9%89-%D8%B9%D9%84%D9%85-%D8%A5%D8%AE%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-steganography/">2- egyres </a> <br>
+				<a href="https://educad.me/67189/%D8%A5%D8%AE%D9%81%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%AF%D9%85%D8%A9/">3- educad.me </a> <br>
+			</p>
+		</div>
+	</body>
+</html>
